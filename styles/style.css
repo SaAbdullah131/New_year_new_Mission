@@ -76,3 +76,24 @@ margin-bottom: 50px;
     padding: 5px 0px;
 }
 /* my plan */
+.my-plan{
+    width: 1132px;
+    height: 300px;
+    margin-left: 218px;
+    margin-right: 90px;
+}
+.my-plan-title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 23px;
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+}
