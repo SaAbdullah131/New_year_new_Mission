@@ -128,8 +128,8 @@ margin-bottom: 50px;
     border-radius: 7px;
     padding:15px 30px;
     height: 50px;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     color:#FD6E0A;
 }
 /* footer section */
@@ -137,4 +137,39 @@ footer{
 width: 100%;
 height: 570px;
 background-color: black;
+}
+.future{
+    margin-top: 150px;
+    color:white;
+    margin-left: 200px;
+}
+.future-title{
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 10px 2px;
+}
+.future-description,.future-email,.future-number{
+    font-size: 18px;
+    padding:10px 0px;
+    margin-bottom: 10px;
+}
+.footer-container {
+    display: flex;
+    gap:500px;
+}
+input{
+    height: 40px;
+    width: 325px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+.subscribe{
+    margin-top: 150px;
+    margin-right: 1000px;
+ }
+ .subscribe h3{
+    color:white;
+    margin-bottom: 20px;
 }
