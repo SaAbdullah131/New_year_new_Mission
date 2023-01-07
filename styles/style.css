@@ -1,6 +1,9 @@
 *{
     margin:0;
 }
+body{
+    overflow-x: hidden;
+}
 /* heading section */
 header{
     width: 100%;
@@ -102,14 +105,12 @@ margin-bottom: 50px;
 }
 /* gradient image */
 .gradient-img{
+    margin-bottom: 60px;
     width: 1140px;
     height: 300px;
     margin-left: 218px;
     background-image: url(../images/watch.png),url(../images/gradient3.png);
     background-blend-mode:overlay;
-}
-.gradient-img{
-    margin-bottom: 60px;
 }
 .mindset{
     float:left;
