@@ -73,7 +73,7 @@ margin-bottom: 50px;
     list-style: none;
     display: inline;
     font-size: 20px;
-    padding: 5px 0px;
+    padding: 5px 5px;
 }
 /* my plan */
 .my-plan{
@@ -81,6 +81,9 @@ margin-bottom: 50px;
     height: 300px;
     margin-left: 218px;
     margin-right: 90px;
+}
+.plan-img{
+    margin-bottom: 10px;
 }
 .my-plan-title{
     text-align: center;
@@ -131,6 +134,61 @@ margin-bottom: 50px;
     font-size: 18px;
     font-weight: 500;
     color:#FD6E0A;
+}
+/* project showcase */
+.my-project-title{
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration-line:underline ;
+}
+.my-project{
+    margin-left: 250px;
+    margin-right: 80px;
+    
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.project{
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.5);
+    width: 300px;
+    margin-bottom: 50px;
+}
+.project > img{
+    margin-left: 90px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.project-title{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.project-description{
+    text-align: center;
+    font-size: 17px;
+    padding:2px;
+    margin-bottom: 8px;
+}
+.link-btn a {
+    text-decoration: none;
+}
+.link-btn{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    padding:5px 15px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color:yellowgreen;
+    color: blue;
+    border-radius: 10px;
+}
+.link-btn:hover{
+    background-color:#FD6E0A;
 }
 /* footer section */
 footer{
