@@ -1,8 +1,14 @@
 *{
     margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 body{
     overflow-x: hidden;
+}
+main{
+    max-width: 1141px;
+    margin: 0 auto;
 }
 /* heading section */
 header{
@@ -52,25 +58,24 @@ margin-bottom: 50px;
     height:724px;
     width:1072px;
     margin-top:110px;
-    margin-left: 218px;
-    margin-right:90px;
+    margin-bottom: 10px;
 }
 .failure-container{
     display: flex;
     gap: 15px;
+    align-items: center;
 }
-.failur-title{
-    margin-top:250px;
+.failure-title{
     font-weight: 700;
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom:50px;
     padding: 5px 0px;
 }
 .failure-description{
     margin-bottom: 80px;
     font-size:20px;
     height: 35px;
-
+    margin-top: 20px;
 }
 .failure-list {
     list-style: none;
@@ -80,10 +85,8 @@ margin-bottom: 50px;
 }
 /* my plan */
 .my-plan{
-    width: 1132px;
-    height: 300px;
-    margin-left: 218px;
-    margin-right: 90px;
+    margin-top: 130px;
+    margin-bottom:130px;
 }
 .plan-img{
     margin-bottom: 10px;
@@ -93,6 +96,7 @@ margin-bottom: 50px;
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 23px;
+    
 }
 .plan-container{
     display: flex;
@@ -108,7 +112,6 @@ margin-bottom: 50px;
     margin-bottom: 60px;
     width: 1140px;
     height: 300px;
-    margin-left: 218px;
     background-image: url(../images/watch.png),url(../images/gradient3.png);
     background-blend-mode:overlay;
 }
@@ -143,10 +146,7 @@ margin-bottom: 50px;
     margin-bottom: 50px;
     text-decoration-line:underline ;
 }
-.my-project{
-    margin-left: 250px;
-    margin-right: 80px;
-}
+
 .project-container{
     display: flex;
     justify-content: center;
@@ -161,7 +161,7 @@ margin-bottom: 50px;
     padding: 10px;
 }
 .project > img{
-    margin-left: 90px;
+    border: 0;
     border-radius: 50%;
     padding-left: 5px;
 }
